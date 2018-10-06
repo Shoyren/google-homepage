@@ -4,6 +4,30 @@ body {
     text-align: center;
 }
 .center {
-    min-width: 900px;
+    min-width: 800px;
     min-height: 475px;
+    position: relative;
+    width: 980px;
+    height: 351px;
+    display: inline-block;
+}
+.logo-wrapper {
+    width: 272px;
+    height: 201px;
+    display: inline-flex;
+}
+.logo {
+    position:absolute;
+    bottom:201px;
+}
+.search-bar {
+    position: absolute;
+    overflow: hidden;
+    width: 484px;
+    height: 44px;
+}
+
+.search-bar input[type=text] {
+    float: center;
+    padding: 6px;
 }
