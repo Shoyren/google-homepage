@@ -1,0 +1,9 @@
+body {
+    font-family: arial;
+    font-size: 13px;
+    text-align: center;
+}
+.center {
+    min-width: 900px;
+    min-height: 475px;
+}
